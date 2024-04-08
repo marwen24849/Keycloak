@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+
+#kc-content {
+    width: 350px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    font-style: normal;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="password"]{
+    margin-bottom: 0px;
+}
+
+input[type="text"],
+input[type="submit"]{
+    margin-bottom: 20px;
+}
+
+ input[type="text"],
+ input[type="password"],
+ input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+ input[type="submit"] {
+    background-color: #32b521;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #319331;
+}
+input[type="checkbox"]{
+    margin-left: 0%;
+    
+}
+
+input[type="checkbox"]:hover{
+    cursor: pointer;
+    
+}
+#kc-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 2px;
+    background-color: #fff;
+    border: 0px;
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+/* Style pour l'icône à l'intérieur du bouton */
+button[data-password-toggle]::before {
+    content: "Show Password";
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-style: italic;
+}
+
+/* Style pour changer la couleur de l'icône lorsque le mot de passe est affiché */
+input[type="password"]:focus + button[data-password-toggle]::before {
+    color: #007bff;
+}
+#kc-header-wrapper {
+    text-align: center;
+    color: #18280c; /* Couleur du texte */
+    padding: 10px; /* Espacement intérieur */
+    display: none;
+}
+
+#kc-header-wrapper {
+    font-size: 20px; /* Taille du texte */
+    font-weight: bold; /* Gras */
+}
+
+
+h1 {
+    font-style: italic; /* Met le texte en italique */
+    font-size: 20px; /* Taille de police */
+    color: #4c7b73; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    margin-bottom: 20px; /* Marge en bas */
+}
